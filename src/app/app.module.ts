@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { CommonModule } from '@angular/common';
 
 import { AppRoutes } from './app.routes';
 
@@ -25,7 +24,6 @@ import { FooterComponent } from './common/footer/footer.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    CommonModule,
     AppRoutes
   ],
   providers: [],
